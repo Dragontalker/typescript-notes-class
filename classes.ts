@@ -1,9 +1,5 @@
 class Vehicle {
-  private color: string = 'red';
-
-  constructor(color: string) {
-    this.color = color;
-  }
+  constructor(private color: string) {}
 
   protected honk(): void {
     console.log(`My ${this.color} car, beep beep!`);
