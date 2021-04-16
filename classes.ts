@@ -1,4 +1,6 @@
 class Vehicle {
+  private color: string = 'red';
+
   protected honk(): void {
     console.log('beep');
   }
@@ -17,3 +19,4 @@ class Car extends Vehicle {
 
 const car = new Car();
 car.startDrivingProcess();
+car.color;
