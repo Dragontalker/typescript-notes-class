@@ -6,7 +6,7 @@ class Vehicle {
   }
 
   protected honk(): void {
-    console.log('beep');
+    console.log(`My ${this.color} car, beep beep!`);
   }
 }
 
