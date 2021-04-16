@@ -1,8 +1,4 @@
 class Vehicle {
-  public drive(): void {
-    console.log('chugga chugga');
-  }
-
   public honk(): void {
     console.log('beep');
   }
