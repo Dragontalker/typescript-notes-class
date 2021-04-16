@@ -9,7 +9,7 @@ class Vehicle {
 }
 
 class Car extends Vehicle {
-  public drive(): void {
+  private drive(): void {
     console.log('vroom');
   }
 };
