@@ -12,8 +12,12 @@ class Car extends Vehicle {
   private drive(): void {
     console.log('vroom');
   }
+
+  startDrivingProcess(): void {
+    this.drive();
+  }
 };
 
 const car = new Car();
-car.drive();
+car.startDrivingProcess();
 car.honk();
