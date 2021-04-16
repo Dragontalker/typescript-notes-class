@@ -8,6 +8,8 @@ class Vehicle {
   }
 }
 
-const vehicle = new Vehicle();
-vehicle.drive();
-vehicle.honk();
+class Car extends Vehicle {};
+
+const car = new Car();
+car.drive();
+car.honk();
